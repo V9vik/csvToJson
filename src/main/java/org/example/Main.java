@@ -27,7 +27,7 @@ public class Main {
         if (list != null) {
             String json = listToJson(list);
             System.out.println(json);
-            writeString(json, "output.json");
+            writeString(json, "data.json");
         } else {
             System.out.println("Ошибка при чтении CSV файла.");
         }
